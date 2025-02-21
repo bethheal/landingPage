@@ -2,23 +2,23 @@
 const k = {
   NAVLINKS: [
     {
-      navName: "Home",
+      name: "Home",
       path: "/",
     },
     {
-      navName: "About",
+      name: "About",
       path: "/about-us",
     },
  
     {
-      navName: "Services",
+      name: "Services",
       path: "/services",
       
     },
    
   
     {
-      navName: "Contact",
+      name: "Contact",
       path: "/contact-us",
     },
   ],

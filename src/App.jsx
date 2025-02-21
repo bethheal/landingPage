@@ -5,6 +5,7 @@ import About from './pages/AboutPage/about'
 import Contact from './pages/ContactPage/contact'
 import Home from './pages/homePage/home'
 import Services from './pages/ServicesPage/services'
+import React from 'react'
 
 function App() {
 
