@@ -1,0 +1,59 @@
+/*Global Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.josefin-sans {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    
+  }
+  /* Background Image for hero section */
+  .hero-img{
+    background-image: url('/src/assets/images/hero-section-image1.png');
+    /* background-attachment:fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width:100vw;
+
+  }
+
+  /* Hero section animation */
+
+  @keyframes grow-shrink {
+    25%,
+    75% {
+      scale: 100%;
+    }
+  
+    50% {
+      scale: 200%;
+      color: magenta;
+    }
+  }
+  
+  .hero-caption{
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: -150vw 0; /* Start from the left */
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+  
+
+  

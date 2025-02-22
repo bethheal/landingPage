@@ -5,6 +5,7 @@ import About from './pages/AboutPage/about'
 import Contact from './pages/ContactPage/contact'
 import Home from './pages/homePage/home'
 import Services from './pages/ServicesPage/services'
+import Products from './pages/ProductsPage/products'
 import React from 'react'
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
         {
           path:"services",
           element:<Services/>,
+        },
+        {
+          path:"products",
+          element:<Products/>,
         },
 
         {

@@ -16,10 +16,15 @@ const k = {
       
     },
    
-  
+   
     {
       name: "Contact",
       path: "/contact-us",
+    },
+    {
+      name: "Products",
+      path: "/products",
+      
     },
   ],
  
