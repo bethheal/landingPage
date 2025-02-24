@@ -1,46 +1,82 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import RootLayout from './layouts/rootLayout'
-import About from './pages/AboutPage/about'
-import Contact from './pages/ContactPage/contact'
-import Home from './pages/homePage/home'
-import Services from './pages/ServicesPage/services'
-import Products from './pages/ProductsPage/products'
-import React from 'react'
+import About from './pages/AboutSection/about'
+import Contact from './pages/ContactSection/contact'
+import Home from './pages/HomeSection/home'
+import Services from './pages/ServicesSection/services'
+import Products from './pages/ProductsSection/products'
+import React, { useEffect, useState } from 'react'
+import Navbar from './components/navbar'
 
-function App() {
 
-  const router = createBrowserRouter([
-    {
-      path:"/",
-      element: <RootLayout/>,
-      children:[
-        {
-          index:true,
-          element:<Home/>,
-        },
-        {
-          path:"about-us",
-          element:<About/>,
-        },
-        {
-          path:"services",
-          element:<Services/>,
-        },
-        {
-          path:"products",
-          element:<Products/>,
-        },
 
-        {
-          path:"contact-us",
-          element:<Contact/>,
-        },
-      ]
-    }
-   ])
+  function App() {
+    const [activeSection, setActiveSection] = useState('home');
+  
+    const sections = ['home', 'about', 'services', 'contacts'];
+  
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+  
+      sections.forEach((section) => {
+        const sectionElement = document.getElementById(section);
+        if (sectionElement) {
+          const sectionTop = sectionElement.offsetTop;
+          const sectionHeight = sectionElement.offsetHeight;
+  
+          if (
+            scrollPosition >= sectionTop &&
+            scrollPosition < sectionTop + sectionHeight
+          ) {
+            setActiveSection(section);
+          }
+        }
+      });
+    };
+  
+    useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
+    const router = createBrowserRouter([
+      {
+        path: '/',
+        element: (
+          <div
+            style={{
+              backgroundColor: 'white',
+            
+              minHeight: '10vh',
+              color: '#111827',
+            }}
+          >
+            < Navbar activeSection={activeSection} />
+            <div id="home" className="section ">
+              <Home />
+            </div>
+            <div id="about" className="section ">
+              <About />
+            </div>
+            <div id="services" className="section ">
+              <Services />
+            </div>
+            <div id="contacts" className="section ">
+              <Products />
+            </div>
+            <div id="contacts" className="section ">
+              <Contact />
+            </div>
+            
+          </div>
+        ),
+      },
+    ]);
    return <RouterProvider router={router} />;
 
 }
 
-export default App
+export default App;

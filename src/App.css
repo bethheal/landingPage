@@ -23,6 +23,8 @@
 
   }
 
+
+
   /* Hero section animation */
 
   @keyframes grow-shrink {
@@ -55,5 +57,20 @@
   }
   
   
-
-  
+/* About Seciton Styling  */
+#about{
+  background-color:#eeedea;
+}
+#about img{
+  width: 60rem;
+  height: 40rem;
+  border-radius: 4%;
+}
+#about .section-two{
+  height:20%;
+  background-color:#f7dd98;
+}
+/* GifIcon {
+  height: 1rem;
+  width: 1rem;
+} */

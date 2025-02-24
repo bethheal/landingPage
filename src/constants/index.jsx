@@ -1,34 +1,13 @@
 
 const k = {
   NAVLINKS: [
-    {
-      name: "Home",
-      path: "/",
-    },
-    {
-      name: "About",
-      path: "/about-us",
-    },
- 
-    {
-      name: "Services",
-      path: "/services",
-      
-    },
-   
-   
-    {
-      name: "Contact",
-      path: "/contact-us",
-    },
-    {
-      name: "Products",
-      path: "/products",
-      
-    },
-  ],
- 
+    { id: "Home", name: "Home", path: "home" },
+    { id: "About", name: "About", path: "about" },
+    { id: "Contact", name: "Contact", path: "contact" },
+    { id: "Products", name: "Products", path: "products" },
 
-
+  ]
+  
 };
+
 export default k;
