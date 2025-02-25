@@ -3,6 +3,7 @@ import aboutUsImg from "./images/about-us-img.jpg"
 import shoeIcon from "./images/icons/animated/shoe.gif"
 import soapIcon from "./images/icons/animated/soapIcon.gif"
 import agriSupIcon from "./images/icons/animated/agric-support.gif"
+import productImage from "./images/productImage.jpeg"
 
 
 
@@ -13,4 +14,5 @@ heroImage,
 shoeIcon,
 soapIcon,
 agriSupIcon,
+productImage
 }

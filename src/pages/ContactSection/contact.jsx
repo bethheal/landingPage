@@ -4,9 +4,11 @@ const Contact = () => {
   return (
     <section id="contact">
 
-    <h1 className="text-base py-8 pb-12 poppins-regular  text-yellow-400">
+  <div>
+  <h1 className="text-base py-8 pb-12 poppins-regular  text-yellow-400">
       Testimonials 
   </h1>
+  </div>
     <div className="card w-64 p-4 bg-white shadow-lg rounded-lg">
       <div className="stars flex gap-1">
         {[...Array(5)].map((_, index) => (
