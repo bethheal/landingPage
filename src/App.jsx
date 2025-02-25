@@ -6,8 +6,10 @@ import Contact from './pages/ContactSection/contact'
 import Home from './pages/HomeSection/home'
 import Services from './pages/ServicesSection/services'
 import Products from './pages/ProductsSection/products'
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import Navbar from './components/navbar'
+import BackToTopButton from "./components/BackToTopButton"; 
+
 
 
 
@@ -70,7 +72,8 @@ import Navbar from './components/navbar'
             <div id="contacts" className="section ">
               <Contact />
             </div>
-            
+            <BackToTopButton />
+
           </div>
         ),
       },
