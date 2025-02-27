@@ -9,11 +9,11 @@ import productImage3 from "./images/productImage3.jpg"
 import innovatorImage from "./images/issah.jpg"
 import innovatorImage2 from "./images/issahfake.jpg"
 
-import fbIcon from ".images/icons/icons8-facebook-32.png"
-import callIcon from ".images/icons/icons8-call-32.png"
-import emailIcon from ".images/icons/icons8-email-32.png"
-import IGIcon from ".images/icons/icons8-instagram-32.png"
-import tiktokIcon from ".images/icons/icons8-tiktok-32.png"
+import fbIcon from "./images/icons/icons8-facebook-32.png"
+import callIcon from "./images/icons/icons8-call-32.png"
+import emailIcon from "./images/icons/icons8-email-32.png"
+import IGIcon from "./images/icons/icons8-instagram-32.png"
+import tiktokIcon from "./images/icons/icons8-tiktok-32.png"
 
 
 export{
@@ -25,6 +25,7 @@ agriSupIcon,
 productImage,productImage1,productImage2,productImage3,
 innovatorImage,
 innovatorImage2,
+// icons images
 fbIcon,callIcon,emailIcon,IGIcon,tiktokIcon,
 
 }

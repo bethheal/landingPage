@@ -1,5 +1,5 @@
 import React from "react";
-import { emailIcon, fbIcon, IGIcon, tiktokIcon } from "../../assets";
+import { emailIcon,callIcon, fbIcon, IGIcon, tiktokIcon } from "../../assets";
 
 const Contacts = () => {
   return (
