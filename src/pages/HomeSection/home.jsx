@@ -19,20 +19,25 @@ const Home = ({ aboutRef, productsRef }) => {
 
   return (
     <div id="home" className="relative w-full">
-      <section className="relative hero-img w-full h-[60vh] md:h-[80vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-16 lg:px-42 ">
+      <section className="relative hero-img w-full h-[60vh] md:h-[80vh] flex  md:flex-row items-center justify-between px-6 md:px-16 lg:px-42 ">
         {/* Left Content */}
-<div className="z-10 max-w-lg text-white flex-1 text-center md:text-left mt-8 md:mt-24">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl pb-6 font-bold leading-tight">
-            Raising Awareness,
-            <span className="block">Inspiring Change</span>
-          </h2>
+        <div className="z-10 max-w-lg text-white flex-1 text-center md:text-left mt-8 md:mt-24">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl pb-6 font-bold leading-tight">
+  <span className="block whitespace-nowrap">Sustainable Solutions,</span>
+  <span className="block whitespace-nowrap">Eco-Friendly Living</span>
+</h2>
+  
+
+
           <p className="text-sm md:text-base pb-6 leading-relaxed">
-            Ut enim ad minim veniam, quis nostrud exercite nisi ut aliquip ex ea
+            
             <span className="block">
-              commodo consequat is aute irure. Ut enim ad minim, nostrud exercite
+              Transform waste into quality, sustainable products for everyday
+              use.
             </span>
             <span className="block">
-              ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.
+              Good for you, experience the power of
+              eco-conscious innovation.{" "}
             </span>
           </p>
 
