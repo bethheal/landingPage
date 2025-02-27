@@ -24,9 +24,10 @@ const Navbar = ({ productsRef }) => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full flex items-center justify-between px-6 md:px-16 py-4 z-50 transition-all duration-300 
-      ${isScrolled ? "shadow-lg bg-white" : "shadow-none bg-transparent"}`}
-    >
+  className={`fixed top-0 left-0 w-full max-w-screen-xl mx-auto flex items-center justify-between md:justify-between px-6 md:px-16 py-4 z-50 transition-all duration-300 
+  ${isScrolled ? "shadow-lg bg-white" : "shadow-none bg-transparent"}`}
+>
+
       {/* Logo */}
       <span className="text-lg font-bold text-gray-900">ISSABUL ABILITY VENTURES</span>
       
