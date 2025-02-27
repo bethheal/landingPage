@@ -14,6 +14,7 @@ import callIcon from "./images/icons/icons8-call-32.png"
 import emailIcon from "./images/icons/icons8-email-32.png"
 import IGIcon from "./images/icons/icons8-instagram-32.png"
 import tiktokIcon from "./images/icons/icons8-tiktok-32.png"
+import locationIcon from "./images/icons/icons8-location-32.png"
 
 
 export{
@@ -26,6 +27,6 @@ productImage,productImage1,productImage2,productImage3,
 innovatorImage,
 innovatorImage2,
 // icons images
-fbIcon,callIcon,emailIcon,IGIcon,tiktokIcon,
+fbIcon,callIcon,emailIcon,IGIcon,tiktokIcon,locationIcon,
 
 }

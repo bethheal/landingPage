@@ -1,5 +1,5 @@
 import React from "react";
-import { emailIcon,callIcon, fbIcon, IGIcon, tiktokIcon } from "../../assets";
+import { emailIcon, callIcon, fbIcon, IGIcon, locationIcon, tiktokIcon } from "../../assets";
 
 const Contacts = () => {
   return (
@@ -17,7 +17,7 @@ const Contacts = () => {
                 </p>
 
                 <div className="flex items-center mt-8 text-gray-600 dark:text-gray-400">
-                  <img src="/favicon.ico" alt="Location" className="w-8 h-8" />
+                  <img src={locationIcon} alt="Location" className="w-8 h-8" />
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     Acme Inc, Street, State, Postal Code
                   </div>
@@ -36,11 +36,19 @@ const Contacts = () => {
                     info@acme.org
                   </div>
                 </div>
-                <div className="flex space-x-4 mt-3 md:mt-0">
-            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-blue-500"><img src={fbIcon} alt="Facebook" className="w-6 h-6" /></a>
-            <a href="https://www.tiktok.com/@issabu.ability.ve?_t=ZM-8u34HZKF1QD&_r=1" className="text-gray-500 dark:text-gray-400 hover:text-blue-400"><img src={tiktokIcon} alt="Tiktok" className="w-6 h-6" /></a>
-            <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pink-500"><img src={IGIcon} alt="Instagram" className="w-6 h-6" /></a>
-          </div>
+
+                {/* Centered Social Media Icons */}
+                <div className="flex justify-center space-x-6 mt-6">
+                  <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-blue-500">
+                    <img src={fbIcon} alt="Facebook" className="w-8 h-8" />
+                  </a>
+                  <a href="https://www.tiktok.com/@issabu.ability.ve?_t=ZM-8u34HZKF1QD&_r=1" className="text-gray-500 dark:text-gray-400 hover:text-blue-400">
+                    <img src={tiktokIcon} alt="Tiktok" className="w-8 h-8" />
+                  </a>
+                  <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pink-500">
+                    <img src={IGIcon} alt="Instagram" className="w-8 h-8" />
+                  </a>
+                </div>
               </div>
 
               <form className="poppins-regular p-6 flex flex-col justify-center">
@@ -97,7 +105,9 @@ const Contacts = () => {
 
       <footer className="bg-white rounded-lg m-4 poppins-regular">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://github.com/bethheal" className="hover:underline">LiT</a>. All Rights Reserved.</span>
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2023 <a href="https://github.com/bethheal" className="hover:underline">LiT</a>. All Rights Reserved.
+          </span>
           <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li><a href="#" className="hover:underline me-4 md:me-6">Home</a></li>
             <li><a href="#about" className="hover:underline me-4 md:me-6">About</a></li>
