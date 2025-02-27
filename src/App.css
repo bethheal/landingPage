@@ -13,16 +13,30 @@
     
   }
   /* Background Image for hero section */
-  .hero-img{
-    background-image: url('/src/assets/images/hero-section-image1.png');
-    /* background-attachment:fixed; */
+  .hero-img {
+    background-image: url('/src/assets/images/hero-section-image1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
-    width:100vw;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
 
-  }
+.hero-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity (0.6 = 60% black overlay) */
+}
 
+button{
+  cursor: pointer;
+}
 
 
   /* Hero section animation */
@@ -58,9 +72,7 @@
   
   
 /* About Seciton Styling  */
-#about{
-  background-color:#eeedea;
-}
+
 #about img{
   width: 60rem;
   height: 40rem;
@@ -68,7 +80,6 @@
 }
 #about .section-two{
   height:20%;
-  background-color:#f7dd98;
 }
 /* GifIcon {
   height: 1rem;
@@ -91,7 +102,7 @@
   display: flex;
   grid-gap: 0.125rem;
   gap: 0.125rem;
-  color: rgb(238, 203, 8);
+  color: rgb(250, 204, 21);
 }
 
 .star {
