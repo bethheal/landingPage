@@ -28,7 +28,7 @@ const Navbar = ({ productsRef }) => {
       ${isScrolled ? "shadow-lg bg-white" : "shadow-none bg-transparent"}`}
     >
       {/* Logo */}
-      <span className="text-2xl font-bold text-gray-900">LOGO</span>
+      <span className="text-2xl font-bold text-gray-900">ISSABUL ABILITY VENTURES</span>
       
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-x-10 items-center">
