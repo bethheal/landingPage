@@ -39,13 +39,13 @@ const Contacts = () => {
 
                 {/* Centered Social Media Icons */}
                 <div className="flex justify-center space-x-6 mt-6">
-                  <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-blue-500">
+                  <a href="https://web.facebook.com/profile.php?id=61573764350478" className="text-gray-500 dark:text-gray-400 hover:text-blue-500">
                     <img src={fbIcon} alt="Facebook" className="w-8 h-8" />
                   </a>
-                  <a href="https://www.tiktok.com/@issabu.ability.ve?_t=ZM-8u34HZKF1QD&_r=1" className="text-gray-500 dark:text-gray-400 hover:text-blue-400">
+                  <a href="https://www.tiktok.com/@issahbuabilityven?lang=en" className="text-gray-500 dark:text-gray-400 hover:text-blue-400">
                     <img src={tiktokIcon} alt="Tiktok" className="w-8 h-8" />
                   </a>
-                  <a href="#" className="text-gray-500 dark:text-gray-400 hover:text-pink-500">
+                  <a href="https://www.instagram.com/issahbuability_ventures/" className="text-gray-500 dark:text-gray-400 hover:text-pink-500">
                     <img src={IGIcon} alt="Instagram" className="w-8 h-8" />
                   </a>
                 </div>
