@@ -1,4 +1,5 @@
 Landing Page Template
+
 This is a Landing Page Template built with Vite + React + TailwindCSS. It provides a clean and structured setup for developers to quickly build and customize landing pages.
 
 🚀 Features
