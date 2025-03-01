@@ -53,22 +53,19 @@ const About = ({ aboutRef }) => {
       viewport={{ once: true, amount: 0.2 }}
       className="mx-auto max-w-6xl lg:py-24 px-6 lg:px-0 text-center"
     >
-      <div className="flex flex-col-reverse lg:flex-row-reverse items-center justify-between gap-8 lg:gap-14">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between gap-8 lg:gap-14">
         {/* Image Section */}
-       <motion.div
-  className="w-full lg:w-1/2 flex justify-center lg:items-end lg:-mt-32"
-  variants={fadeInVariant}
-  custom={0}
->
-  <img
-    src={innovatorImage2}
-    alt="About Us"
-    className="w-20 h-20 lg:w-28 lg:h-28 object-cover rounded-lg shadow-lg"
-  />
-</motion.div>
-
-
-
+        <motion.div
+          className="w-full lg:w-1/2 flex justify-center lg:items-start "
+          variants={fadeInVariant}
+          custom={0}
+        >
+          <img
+            src={innovatorImage2}
+            alt="About Us"
+            className="w-20 h-20 lg:w-28 lg:h-28 object-cover rounded-lg shadow-lg"
+          />
+        </motion.div>
 
         {/* Text Section */}
         <motion.div
@@ -107,7 +104,7 @@ const About = ({ aboutRef }) => {
             <strong className="text-yellow-400">
               Purpose Behind the Innovation:
             </strong>{" "}
-            Issah's vision extends beyond sustainability—he aims to
+            Issah's vision extends beyond sustainability he aims to
             <strong> empower marginalized communities</strong> by creating
             economic opportunities for PWDs, reducing environmental waste, and
             providing affordable agricultural and hygiene solutions. His work is
