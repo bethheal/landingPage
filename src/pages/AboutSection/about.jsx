@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { agriSupIcon, innovatorImage2, shoeIcon, soapIcon } from "../../assets";
+import { communityIcon, innovatorImage, trainingIcon, soapIcon } from "../../assets";
 
 // GifIcon Component
 const GifIcon = ({ src, alt, className }) => (
@@ -17,17 +17,18 @@ const About = ({ aboutRef }) => {
   const impactData = [
     {
       icon: soapIcon,
-      text: "Producing affordable herbicides for rural farmers, improving crop yields and food security.",
+      text: "Producing affordable shower gel, bar soap, and floor cleaner to promote hygiene and well-being.",
     },
     {
-      icon: agriSupIcon,
-      text: "Transforming waste palm oil into handmade soaps, providing affordable hygiene solutions.",
+      icon: trainingIcon, // Replace with a suitable icon
+      text: "Empowering visually impaired individuals with skills to become self-reliant and independent.",
     },
     {
-      icon: shoeIcon,
-      text: "Eco-Friendly Footwear Production. Creating shoes, slippers, and sandals from recycled materials, reducing waste, and promoting environmental conservation.",
+      icon: communityIcon, // Replace with a suitable icon
+      text: "Creating economic opportunities for persons with disabilities through entrepreneurship and innovation.",
     },
   ];
+  
 
   // Animation Variants
   const sectionVariant = {
@@ -62,7 +63,7 @@ const About = ({ aboutRef }) => {
           custom={0}
         >
           <img
-            src={innovatorImage2}
+            src={innovatorImage}
             alt="about Innovator"
             loading="lazy"
             className="w-20 h-20 lg:w-28 lg:h-28 object-cover rounded-lg shadow-lg"
@@ -83,22 +84,24 @@ const About = ({ aboutRef }) => {
           </h1>
 
           <p className="max-w-xl mx-auto lg:mx-0 text-base text-gray-700 leading-8 pb-6">
-            Issah Abdulai, a physically challenged entrepreneur from Sankor,
-            Ahafo Region, is transforming waste into opportunity. He repurposes
-            waste materials to create handmade
-            <strong> shoes, and bags</strong>, while also producing
-            <strong> local shower Gels and liquid soap </strong>.
+            Issah Abdulai, a visually impaired entrepreneur from Sankor, Ahafo
+            Region, turned adversity into innovation. He refused to become a
+            burden on his family and learned to produce
+            <strong> shower gel, bar soap</strong> and
+            <strong> floor cleaner </strong>.
           </p>
 
           <p className="max-w-xl mx-auto lg:mx-0 text-gray-700 leading-8 text-base pb-6">
-            His initiative also manufactures{" "}
-            <strong>affordable herbicides</strong> for rural farmers, boosting
-            agriculture and employment opportunities for persons with
-            disabilities (PWDs). By promoting sustainable practices, Issah is
-            recycling
+            His initiative not only provides essential hygiene solutions but
+            also inspires and empowers other visually impaired individuals to
+            become self-reliant.
             <span className="italic">
               {" "}
-              <strong>hope, opportunities, and a better future.</strong>
+              <strong>
+                {" "}
+                Through his work, Issah is proving that disability is not an
+                inability it is an opportunity to create change.
+              </strong>
             </span>
           </p>
 
@@ -108,9 +111,8 @@ const About = ({ aboutRef }) => {
             </strong>{" "}
             Issah's vision extends beyond sustainability he aims to
             <strong> empower marginalized communities</strong> by creating
-            economic opportunities for PWDs, reducing environmental waste, and
-            providing affordable agricultural and hygiene solutions. His work is
-            a testament to how
+            economic opportunities for PWDs and ensuring access to affordable hygiene products.
+            His work is a testament to how
             <span className="italic">
               {" "}
               innovation can drive social change and inclusive growth.
