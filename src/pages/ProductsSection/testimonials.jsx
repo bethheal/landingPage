@@ -21,11 +21,11 @@ const testimonials = [
     review: "Best soap I’ve used in a long time. It’s gentle on the skin yet very effective. Highly recommend!",
     rating: 5,
   },
-  {
-    name: "Daniel Mensah",
-    review: "The fragrance of the shower gel is so refreshing! It makes every bath feel like a spa session.",
-    rating: 5,
-  },
+  // {
+  //   name: "Daniel Mensah",
+  //   review: "The fragrance of the shower gel is so refreshing! It makes every bath feel like a spa session.",
+  //   rating: 5,
+  // },
 ];
 
 const StarRating = ({ rating }) => (

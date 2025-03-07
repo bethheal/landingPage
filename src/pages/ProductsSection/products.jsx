@@ -13,9 +13,9 @@ const Products = ({ productsRef }) => {
 
   return (
     <section ref={productsRef} className="container mx-auto p-8">
-    <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">
+    {/* <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">
       Products
-    </h2>
+    </h2> */}
     <h1 className="text-lg lg:text-xl font-semibold text-yellow-400 pb-4 text-center">
       Our Products
     </h1>
@@ -29,6 +29,7 @@ const Products = ({ productsRef }) => {
           <img
             src={product.image}
             alt={product.name}
+            loading="lazy"
             className="w-full h-48 object-cover"
           />
           <div className="p-4 text-center">

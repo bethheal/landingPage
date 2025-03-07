@@ -54,6 +54,7 @@ const Home = ({ aboutRef, productsRef }) => {
         <div className="hidden md:block mt-8 md:mt-0 w-32 h-32 sm:w-60 md:w-72 md:h-72 lg:w-80 lg:h-80 relative overflow-hidden rounded-full transform transition-all duration-500 ease-in-out hover:scale-110 hover:rotate-[10deg] hover:translate-x-2 hover:translate-y-2">
           <img
             src={innovatorImage2}
+            loading="lazy"
             alt="Innovator's picture"
             className="w-full h-full object-cover rounded-full transition-all duration-500 ease-in-out"
           />

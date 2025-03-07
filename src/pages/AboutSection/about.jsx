@@ -7,6 +7,7 @@ const GifIcon = ({ src, alt, className }) => (
   <img
     src={src}
     alt={alt}
+    loading="lazy"
     className={`w-34 h-34 max-w-[34px] max-h-[34px] object-contain ${className}`}
   />
 );
@@ -62,7 +63,8 @@ const About = ({ aboutRef }) => {
         >
           <img
             src={innovatorImage2}
-            alt="About Us"
+            alt="about Innovator"
+            loading="lazy"
             className="w-20 h-20 lg:w-28 lg:h-28 object-cover rounded-lg shadow-lg"
           />
         </motion.div>
