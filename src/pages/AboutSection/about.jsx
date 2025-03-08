@@ -84,7 +84,7 @@ const About = ({ aboutRef }) => {
           </h1>
 
           <p className="max-w-xl mx-auto lg:mx-0 text-base text-gray-700 leading-8 pb-6">
-            Issah Abdulai, a visually impaired entrepreneur from Sankor, Ahafo
+            Issah Abdulai, a visually impaired entrepreneur from Kwapong, Ahafo
             Region, turned adversity into innovation. He refused to become a
             burden on his family and learned to produce
             <strong> shower gel, bar soap</strong> and
