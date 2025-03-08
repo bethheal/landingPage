@@ -8,7 +8,7 @@ const Products = ({ productsRef }) => {
     { id: 1, name: "Nhyira Nka Boafo) Shower Gel", price: 20, image: productImage },
     { id: 2, name: "Nhyira Nka Boafo) Bar Soap", price: 10, image: productImage1 },
     { id: 3, name: "Nhyira Nka Boafo) Floor Cleaner", price: 20, image: productImage2 },
-    { id: 4, name: " Shower Gel bulk", price: 50, image: productImage3 },
+    { id: 4, name: "Nhyira Nka Boafo)", price: 50, image: productImage3 },
   ];
 
   return (
