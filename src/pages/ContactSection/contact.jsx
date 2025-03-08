@@ -19,21 +19,21 @@ const Contacts = () => {
                 <div className="flex items-center mt-8 text-gray-600 dark:text-gray-400">
                   <img src={locationIcon} alt="Location" className="w-8 h-8" />
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                    Acme Inc, Street, State, Postal Code
+                    Kwapong- Ahafo Region|| Daworo Ano
                   </div>
                 </div>
 
                 <div className="flex items-center mt-4 text-gray-600 dark:text-gray-400">
                   <img src={callIcon} alt="Phone" className="w-8 h-8" />
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                    +44 1234567890
+                    +233 248 082 240
                   </div>
                 </div>
 
                 <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400">
                   <img src={emailIcon} alt="Email" className="w-8 h-8" />
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                    info@acme.org
+                    abdulaiissah256@gmail.com
                   </div>
                 </div>
 
